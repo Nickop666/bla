@@ -1,0 +1,15 @@
+CREATE TABLE coffee (
+  id INTEGER PRIMARY KEY,
+  name TEXT,
+  roast_level TEXT,
+  ground_whole_bean TEXT,
+  flavor_description TEXT,
+  price REAL,
+  volume INTEGER
+);
+INSERT INTO coffee (name, roast_level, ground_whole_bean, flavor_description, price, volume) VALUES
+('Ethiopia Yirgacheffe', 'Light', 'Whole Bean', 'Floral and fruity with notes of blueberry and citrus', 15.99, 12),
+('Colombia Supremo', 'Medium', 'Ground', 'Balanced and smooth with notes of chocolate and caramel', 12.99, 16),
+('Brazil Santos', 'Dark', 'Whole Bean', 'Rich and earthy with notes of nuts and dark chocolate', 10.99, 18),
+('Kenya AA', 'Light', 'Ground', 'Bright and acidic with notes of blackcurrant and grapefruit', 14.99, 10),
+('Guatemala Antigua', 'Medium', 'Whole Bean', 'Sweet and nutty with notes of honey and almond', 13.99, 14);
